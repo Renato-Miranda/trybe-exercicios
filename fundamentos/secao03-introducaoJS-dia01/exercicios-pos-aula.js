@@ -27,3 +27,11 @@ if (a > b && a > c){
     console.log(c);
 }*/
 
+// exercicio 04
+if (a > 0 ){
+    console.log('positive')
+}else if(a < 0){
+    console.log('negative')
+}else{
+    console.log(0)
+}
