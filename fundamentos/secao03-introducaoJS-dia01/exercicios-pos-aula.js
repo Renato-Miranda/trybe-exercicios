@@ -41,6 +41,6 @@ if (angle === 180){
     console.log(true)
 }else if(angle !== 180){
     console.log(false)
-}else if (angle < 0){
-    console.log(error)
+}else if (angle <= 0){
+    console.log("erro")
 }
