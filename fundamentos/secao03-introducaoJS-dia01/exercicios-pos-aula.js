@@ -1,9 +1,10 @@
 // exercicio 01
 const a = 90;
 const b = 45;
-const c = 45;
+const c = -45;
 
 let angle = a+b+c;
+let positiveAngle = a > 0 && b > 0 && c >0;
 /*
 console.log(a+b);
 console.log(a-b);
@@ -36,11 +37,12 @@ if (a > b && a > c){
     console.log(0)
 }*/
 // exercicio 05
-
-if (angle === 180){
-    console.log(true)
-}else if(angle !== 180){
-    console.log(false)
-}else if (angle <= 0){
-    console.log("erro")
+if (positiveAngle) {
+if (anle === 180) {
+    console.log(true);
+}else{
+    console.log(false);
+};
+} else {
+    console.log('erro');
 }
