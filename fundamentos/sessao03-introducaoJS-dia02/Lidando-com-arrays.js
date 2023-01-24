@@ -54,11 +54,25 @@ let media = 0;
 //     console.log(impares);
 // }
 
-let menorValor = numbers[0];
+// let menorValor = numbers[0];
 
-for (let i = 0; i < numbers.length; i += 1) {
-    if (numbers[i] < menorValor) {
-        menorValor = numbers[i]
-    }
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] < menorValor) {
+//         menorValor = numbers[i]
+//     }
+// }
+// console.log(menorValor);
+
+let vetor = [];
+let divisao = 0;
+
+for (let i = 1; i <= 25; i+=1) {
+    vetor.push(i);
 }
-console.log(menorValor);
+
+
+// console.log(vetor);
+
+for (let i = 0; i < vetor.length; i+= 1) {
+    console.log(vetor[i] / 2);
+}
