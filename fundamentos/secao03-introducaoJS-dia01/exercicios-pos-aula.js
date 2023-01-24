@@ -37,7 +37,7 @@ if (a > b && a > c){
     console.log(0)
 }*/
 // exercicio 05
-if (positiveAngle) {
+/*if (positiveAngle) {
 if (anle === 180) {
     console.log(true);
 }else{
@@ -46,3 +46,4 @@ if (anle === 180) {
 } else {
     console.log('erro');
 }
+*/
