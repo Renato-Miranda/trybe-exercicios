@@ -40,16 +40,25 @@ let media = 0;
 // }
 // console.log(maiorValor)
 
-let impares = 0;
+// let impares = 0;
 
-for (let i = 0; i < numbers.length; i +=1) {    
-    if (numbers[i] % 2 !== 0) {
-        impares +=1;
-}
-}
+// for (let i = 0; i < numbers.length; i +=1) {    
+//     if (numbers[i] % 2 !== 0) {
+//         impares +=1;
+// }
+// }
 
-if (impares === 0){
-    console.log('nenhum valor ímpar encontrado');
-}else{
-    console.log(impares);
+// if (impares === 0){
+//     console.log('nenhum valor ímpar encontrado');
+// }else{
+//     console.log(impares);
+// }
+
+let menorValor = numbers[0];
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] < menorValor) {
+        menorValor = numbers[i]
+    }
 }
+console.log(menorValor);
