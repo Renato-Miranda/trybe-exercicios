@@ -12,4 +12,12 @@ let info = {
 
 info['recorrente'] = 'sim'
 
-console.log(info);
+// console.log(info);
+
+// for(let key in info){
+//     console.log(key)
+// }
+
+for (let chave in info){
+    console.log(info[chave]);
+}
